@@ -14,8 +14,8 @@
 **mkdir**
 - Criar um arquivo  
 **echo  nome-arquivo > nome-arquivo.txt**
-_obs: o echo cria uma resposta_
-_obs: “>” redireciona o fluxo de resposta para criar um arquivo_
+_obs: o echo cria uma resposta_  
+_obs: “>” redireciona o fluxo de resposta para criar um arquivo_  
 - Apagar um arquivo  
 **del**
 - Apagar pastas  
@@ -31,7 +31,7 @@ _obs: “>” redireciona o fluxo de resposta para criar um arquivo_
 
 **-O que é SHA-1?**
 SHA-1 é uma função de dispersão criptográfica.  
-**-Cacarteristicas da SHA-1**
+**-Cacarteristicas da SHA-1**  
 1 - apresenta-se como um número hexadecimal de 40 dígitos.  
 2 - Esses 40 dígitos são sempre únicos.  
 3 - Qualquer mudança gera-se automaticamente outra sequência numérica  

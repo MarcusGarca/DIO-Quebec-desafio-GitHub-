@@ -13,29 +13,31 @@
 - Criar pastas  
 **mkdir**
 - Criar um arquivo  
-**echo  nome-arquivo > nome-arquivo.txt**
+**echo  nome-arquivo > nome-arquivo.txt**  
 _obs: o echo cria uma resposta_  
 _obs: “>” redireciona o fluxo de resposta para criar um arquivo_  
 - Apagar um arquivo  
 **del**
 - Apagar pastas  
 **rmdir**
--limpar tela  
+- Limpar tela  
 **cls**
--auto complete  
+- Auto complete  
 **tab**
--mostrar pastas ocultas  
+- Mostrar pastas ocultas  
 **ls -a**
 
 ## Contexto básico essencial antes de falar em Objetos git
 
-**-O que é SHA-1?**
+- **O que é SHA-1?**
 SHA-1 é uma função de dispersão criptográfica.  
-**-Cacarteristicas da SHA-1**  
+
+- **Caraterísticas da SHA-1**  
 1 - apresenta-se como um número hexadecimal de 40 dígitos.  
 2 - Esses 40 dígitos são sempre únicos.  
 3 - Qualquer mudança gera-se automaticamente outra sequência numérica  
-**A Relação SHA-1 e a tecnolgia Git**  
+
+- **A Relação SHA-1 e a tecnologia Git**  
 O Git utiliza a função SHA-1 para versionar qualquer modificação.  
 
 ## Objetos Git
@@ -56,18 +58,18 @@ O Git utiliza a função SHA-1 para versionar qualquer modificação.
 
 ### Comandos git
 
-**-iniciar uma área de trabalho**
+- **Iniciar uma área de trabalho**  
    _clone_ -  Clone um repositório em um novo diretório  
    _init_  - Cria um repositório Git vazio ou reinicializa um existente  
 
-**-trabalhe na mudança atual**
+- **Trabalhe na mudança atual**  
    _add_  - Adiciona o conteúdo do arquivo ao índice  
    _mv_  - Move ou renomeia um arquivo, um diretório ou um link simbólico  
    _restore_ - Restaurar arquivos da árvore de trabalho  
    _rm_ - Remove arquivos da árvore de trabalho e do índice  
    _sparse-checkout_ -  Inicializa e modifica o sparse-checkout  
 
-**-examine o histórico e o estado**
+- **Examine o histórico e o estado**  
    _bisect_ - Use a busca binária para encontrar o commit que introduziu um bug  
    _diff_ - Mostra as mudanças entre commits, commit e árvore de trabalho, etc  
    _grep_ - Imprime linhas que correspondem a um padrão  
@@ -75,7 +77,7 @@ O Git utiliza a função SHA-1 para versionar qualquer modificação.
    _show_ - Mostra vários tipos de objetos  
    _status_ - Mostra o status da árvore de trabalho  
 
-**-marcar e ajustar sua história comum**
+- **Marcar e ajustar sua história comum**  
    _branch_ - Listar, criar ou excluir branches  
    _commit_ - Grava as alterações no repositório  
    _merge_ - Junte dois ou mais históricos de desenvolvimento  
@@ -84,15 +86,18 @@ O Git utiliza a função SHA-1 para versionar qualquer modificação.
    _switch_ -  Mudar ramos  
    _tag_-  Criar, listar, excluir ou verificar um objeto de tag assinado com GPG  
 
-**-colaborar**
+- **Colaborar**  
    _fetch_ - Baixar objetos e referências de outro repositório  
    _pull_ - puxar, Busca de e integrar com outro repositório ou uma ramificação local  
    _push_ - enviar, Atualizar referências remotas junto com objetos associados  
-**-visualizar configurações**
+
+- **Visualizar configurações**
 _git config --list_  
-**-remover uma configurações da conta**
+
+- **Remover uma configurações da conta**
 _git config --global --unset gui.recentrepo_  
-**-adicionar uma configurações da conta**
+
+- **Adicionar uma configurações da conta**
 _git config --global gui.recentrepo_  
 
 ## Conectando o repositório local ao repositório remoto
